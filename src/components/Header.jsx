@@ -46,19 +46,23 @@ export default function Header() {
 
                 {/* Desktop Login */}
                 <div className="hidden shrink-0 items-center gap-2 lg:flex">
-                    <Link
-                        href="#"
+                    <a
+                        href="https://connect.shobhitodl.in/ams/"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="rounded-lg border border-primary px-3 py-2 text-xs font-semibold text-primary transition hover:bg-primary hover:text-white"
                     >
                         Admin Login
-                    </Link>
+                    </a>
 
-                    <Link
-                        href="#"
+                    <a
+                        href="https://connect.shobhitodl.in/ams/"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="rounded-lg bg-primary px-3 py-2 text-xs font-semibold text-white transition hover:bg-primary-dark"
                     >
                         Student Login
-                    </Link>
+                    </a>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -104,21 +108,25 @@ export default function Header() {
                     </nav>
 
                     <div className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2">
-                        <Link
-                            href="#"
+                        <a
+                            href="https://connect.shobhitodl.in/ams/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             onClick={() => setOpen(false)}
                             className="rounded-lg border border-primary px-4 py-3 text-center text-sm font-semibold text-primary transition hover:bg-primary hover:text-white"
                         >
                             Admin Login
-                        </Link>
+                        </a>
 
-                        <Link
-                            href="#"
+                        <a
+                            href="https://connect.shobhitodl.in/ams/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             onClick={() => setOpen(false)}
                             className="rounded-lg bg-primary px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-primary-dark"
                         >
                             Student Login
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>
