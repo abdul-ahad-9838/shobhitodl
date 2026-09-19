@@ -125,7 +125,7 @@ export default function Footer() {
                             className="bg-bg mb-2 rounded-md md:w-full"
                         />
                         <p className="text-justify text-sm leading-snug text-white/75">
-                            Shobhit Institute of Engineering & Technology, Meerut (NAAC ‘A’
+                            Shobhit University, Meerut (NAAC ‘A’
                             Grade Accredited Deemed-to-be University) NH-58, Modipuram, Meerut
                             – 250 110
                         </p>
